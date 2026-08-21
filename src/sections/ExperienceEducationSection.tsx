@@ -1,5 +1,5 @@
 import FadeIn from '../components/FadeIn';
-import { Briefcase, GraduationCap, Calendar, MapPin, CheckCircle2 } from 'lucide-react';
+import { Palette, GraduationCap, Calendar, MapPin, CheckCircle2 } from 'lucide-react';
 
 const WORK_EXPERIENCES = [
   {
@@ -14,25 +14,25 @@ const WORK_EXPERIENCES = [
     ],
   },
   {
-    role: 'Web Development Intern',
+    role: 'Visual & UI Design Intern',
     company: 'Syslog',
     period: 'Dec 2023 – Apr 2024',
     location: 'Bangalore, Karnataka',
-    type: 'Internship',
+    type: 'Design Internship',
     points: [
-      'Developed a web-based e-learning platform designed to help students learn and practice more effectively.',
-      'Analyzed learner abilities, learning pace, interests, and overall progress to deliver an adaptive, personalized educational experience.',
+      'Crafted user-centric visual assets, brand elements, and engaging digital layouts for an online education platform.',
+      'Structured visual hierarchies, interactive design systems, and instructional graphics to provide students with a seamless, intuitive experience.',
     ],
   },
   {
-    role: 'Programming Intern',
+    role: 'Creative Design Intern',
     company: 'Syslog',
     period: 'Jun 2023 – Jul 2023',
     location: 'Bangalore, Karnataka',
-    type: 'Internship',
+    type: 'Design Internship',
     points: [
-      'Acquired a foundational understanding of both Java and Python, including object-oriented programming, control structures, and data types.',
-      'Covered functions, loops, data structures, and basic file handling in both languages.',
+      'Designed digital creative assets, vector graphics, presentation materials, and instructional illustrations.',
+      'Developed foundational workflows in digital media creation, layout composition, and visual storytelling.',
     ],
   },
 ];
@@ -65,7 +65,7 @@ export default function ExperienceEducationSection() {
         {/* Section Header */}
         <FadeIn delay={0} y={30} className="text-center mb-16 sm:mb-24">
           <span className="text-xs uppercase tracking-widest font-semibold text-[#7621B0] px-4 py-1.5 rounded-full bg-[#7621B0]/10 inline-block mb-4">
-            Career Timeline
+            Professional Background
           </span>
           <h2
             className="text-[#0C0C0C] font-black uppercase tracking-tight leading-none"
@@ -81,11 +81,11 @@ export default function ExperienceEducationSection() {
           <div className="lg:col-span-7 flex flex-col gap-8">
             <div className="flex items-center gap-3 border-b border-black/10 pb-4">
               <div className="w-10 h-10 rounded-xl bg-black text-white flex items-center justify-center">
-                <Briefcase className="w-5 h-5 text-[#BBCCD7]" />
+                <Palette className="w-5 h-5 text-[#BBCCD7]" />
               </div>
               <div>
                 <h3 className="font-bold text-xl uppercase tracking-wide text-black">Work Experience</h3>
-                <p className="text-xs text-black/60 font-light">Broadcast motion, visual direction &amp; software engineering</p>
+                <p className="text-xs text-black/60 font-light">Broadcast graphics, motion packages &amp; visual media</p>
               </div>
             </div>
 
@@ -136,7 +136,7 @@ export default function ExperienceEducationSection() {
               </div>
               <div>
                 <h3 className="font-bold text-xl uppercase tracking-wide text-black">Education</h3>
-                <p className="text-xs text-black/60 font-light">Academic foundations &amp; honors</p>
+                <p className="text-xs text-black/60 font-light">Academic background &amp; honors</p>
               </div>
             </div>
 
@@ -168,20 +168,20 @@ export default function ExperienceEducationSection() {
               <FadeIn delay={0.4} y={20}>
                 <div className="p-6 rounded-2xl bg-gradient-to-br from-black to-[#1a1225] text-white border border-black shadow-lg">
                   <span className="text-[11px] uppercase tracking-widest text-[#BBCCD7] font-semibold block mb-2">
-                    Core Specializations
+                    Design Specializations
                   </span>
                   <div className="grid grid-cols-2 gap-2 text-xs">
                     <div className="p-2.5 rounded-lg bg-white/5 border border-white/10 font-medium">
                       📺 Broadcast Packaging
                     </div>
                     <div className="p-2.5 rounded-lg bg-white/5 border border-white/10 font-medium">
-                      🎬 Motion Graphics
+                      🎬 Animated Video Loops
                     </div>
                     <div className="p-2.5 rounded-lg bg-white/5 border border-white/10 font-medium">
-                      💻 React / Web Apps
+                      🎨 Posters &amp; Title Cards
                     </div>
                     <div className="p-2.5 rounded-lg bg-white/5 border border-white/10 font-medium">
-                      🐍 Python &amp; Data ML
+                      🖌️ Anchor Backdrops
                     </div>
                   </div>
                 </div>

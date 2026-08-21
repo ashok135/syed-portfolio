@@ -1,4 +1,45 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
-  <rect width="512" height="512" rx="128" fill="#000000"/>
-  <path fill="#ffffff" fill-rule="evenodd" clip-rule="evenodd" d="M256 112L416 384H96L256 112Z"/>
+  <defs>
+    <linearGradient id="smGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B600A8" />
+      <stop offset="50%" stop-color="#7621B0" />
+      <stop offset="100%" stop-color="#BE4C00" />
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#BBCCD7" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="16" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Dark Background -->
+  <rect width="512" height="512" rx="140" fill="#0C0C0C" />
+  
+  <!-- Outer Glow Ring -->
+  <rect width="480" height="480" x="16" y="16" rx="124" fill="none" stroke="url(#smGrad)" stroke-width="8" opacity="0.6" />
+
+  <!-- Inner Ambient Orb -->
+  <circle cx="256" cy="256" r="160" fill="url(#smGrad)" opacity="0.15" filter="url(#glow)" />
+
+  <!-- Stylized "SM" Monogram -->
+  <g filter="url(#glow)">
+    <!-- Sparkle Accent -->
+    <path d="M 370 120 Q 370 150 400 150 Q 370 150 370 180 Q 370 150 340 150 Q 370 150 370 120 Z" fill="#B600A8" />
+    
+    <text 
+      x="256" 
+      y="330" 
+      font-family="'Kanit', system-ui, -apple-system, sans-serif" 
+      font-size="210" 
+      font-weight="900" 
+      letter-spacing="-6"
+      text-anchor="middle" 
+      fill="url(#textGrad)"
+    >
+      SM
+    </text>
+  </g>
 </svg>

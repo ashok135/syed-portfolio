@@ -1,23 +1,25 @@
-# Syed Maaz — Graphic Designer & Web Developer Portfolio
+# Syed Maaz — Graphics & Motion Designer Portfolio
 
-A modern, high-performance portfolio website built with React, TypeScript, Tailwind CSS, and Framer Motion.
+A creative portfolio website showcasing broadcast graphics packages, animated video loops, anchor backdrops, and promotional design assets.
 
-## 🚀 Features
-- **Hero Section**: Dynamic typography, 3D magnetic interactive portrait, and quick contact badges.
-- **Motion Marquee**: Fluid scrolling showcase of visual works and animations.
-- **About Section**: Detailed background in broadcast motion design and software development.
-- **Experience & Education**: Timeline highlighting roles at Speed News Kannada, Syslog, and academic background from East West Polytechnic.
-- **Selected Projects**: Sticky-stacking interactive project cards with tech stacks and metrics.
-- **Skills & Certifications**: Categorized technical capabilities and accredited certifications.
-- **Direct Connect**: Interactive contact form and quick-action direct links.
+## 🎨 Creative Highlights
+- **Hero & Identity**: Dedicated to Broadcast Graphics, Motion Storytelling & Visual Branding.
+- **Motion Marquee**: Dynamic showcase of motion sequences and digital media.
+- **About Profile**: Background in newsroom broadcast production at Speed News Kannada.
+- **Experience & Education**: Timeline highlighting roles at Speed News Kannada, Syslog, and education from East West Polytechnic.
+- **Selected Works**:
+  1. *Prakashnath Swamiji Birthday Event* — Live Broadcast Graphics Package
+  2. *Speed News Kannada* — On-Air Newsroom Graphics Suite & Anchor Backdrops
+  3. *Visual Brand Identity & Motion Promo Campaign* — Poster & Title Sequences
+- **Design Suite**: After Effects, Photoshop, Premiere Pro, Motion Graphics & Visual Branding.
+- **Direct Connect**: Inquiry form and instant contact options (Phone: +91 9353546279, Email: syedmaazsuhail@gmail.com).
 
-## 🛠️ Tech Stack
-- **Framework**: React 19 + TypeScript + Vite
-- **Styling**: Tailwind CSS
-- **Animations**: Framer Motion
-- **Icons**: Lucide React
+## 🛠️ Built With
+- React + TypeScript + Vite
+- Tailwind CSS
+- Framer Motion
 
-## 💻 Getting Started
+## 💻 Local Development
 
 ```bash
 # Install dependencies

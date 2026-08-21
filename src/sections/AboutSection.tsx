@@ -1,10 +1,10 @@
 import FadeIn from '../components/FadeIn';
 import AnimatedText from '../components/AnimatedText';
 import ContactButton from '../components/ContactButton';
-import { Award, Briefcase, GraduationCap, Sparkles } from 'lucide-react';
+import { Film, Palette, Layers, Sparkles } from 'lucide-react';
 
 const ABOUT_TEXT =
-  "I am Syed Maaz, a Graphics Designer & Web Developer based in Bangalore. Currently designing broadcast-ready graphics, motion loops, and lower-thirds for Speed News Kannada. With a Computer Science Engineering background from East West Polytechnic, I merge visual storytelling with modern frontend development to create memorable brand experiences and high-impact digital products.";
+  "I am Syed Maaz, a passionate Graphics & Motion Designer based in Bangalore. Currently designing broadcast-ready graphic plates, animated video loops, anchor backdrops, and live lower-thirds for Speed News Kannada. With expertise in Adobe After Effects, Photoshop, and Premiere Pro, I craft high-impact motion visuals, brand identity packages, and promotional content under fast-paced newsroom deadlines.";
 
 const CORNER_IMAGES = [
   {
@@ -39,22 +39,22 @@ const CORNER_IMAGES = [
 
 const HIGHLIGHTS = [
   {
-    icon: Briefcase,
+    icon: Film,
     title: 'Broadcast Motion',
     subtitle: 'Speed News Kannada',
-    desc: 'On-air graphics packages, animated loops, lower-thirds & live broadcast visual direction.',
+    desc: 'On-air graphic plates, animated video loops, live lower-thirds, tickers & breaking news jackets.',
   },
   {
-    icon: GraduationCap,
-    title: 'CS Engineering',
-    subtitle: 'East West Polytechnic',
-    desc: 'Strong grounding in software architectures, algorithms, Python & web technologies.',
+    icon: Palette,
+    title: 'Visual Identity',
+    subtitle: 'Brand & Posters',
+    desc: 'High-res promotional posters, discussion panel backdrops, title cards & visual brand guidelines.',
   },
   {
-    icon: Award,
-    title: 'Full Spectrum',
-    subtitle: 'Design & Code',
-    desc: 'Seamless synergy between After Effects / Photoshop creativity and React / Python execution.',
+    icon: Layers,
+    title: 'Post-Production',
+    subtitle: 'Motion Suite',
+    desc: 'Seamless multi-layer composite animations in After Effects combined with Photoshop digital design.',
   },
 ];
 
@@ -81,7 +81,7 @@ export default function AboutSection() {
         <FadeIn delay={0} y={30}>
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 text-xs font-light tracking-widest uppercase text-[#BBCCD7] mb-6">
             <Sparkles className="w-3.5 h-3.5 text-[#B600A8]" />
-            Background &amp; Philosophy
+            Creative Profile
           </div>
         </FadeIn>
 
@@ -101,7 +101,7 @@ export default function AboutSection() {
           />
         </div>
 
-        {/* 3 Core pillars */}
+        {/* 3 Core Design pillars */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 sm:gap-6 mt-14 sm:mt-18 w-full">
           {HIGHLIGHTS.map((item, idx) => {
             const Icon = item.icon;

@@ -49,7 +49,7 @@ export default function ContactSection() {
             Let&apos;s Connect
           </h2>
           <p className="text-sm sm:text-base text-[#D7E2EA]/70 max-w-lg mx-auto mt-4 font-light">
-            Have an on-air graphics package, motion design project, or web application in mind? Reach out directly.
+            Have an on-air broadcast graphics package, animated video loop, or promotional poster design in mind? Reach out directly.
           </p>
         </FadeIn>
 
@@ -109,7 +109,7 @@ export default function ContactSection() {
                 <MapPin className="w-4 h-4 text-[#BE4C00]" /> Location
               </span>
               <p className="text-base sm:text-lg font-bold text-white">Bangalore, Karnataka, India</p>
-              <p className="text-xs text-[#D7E2EA]/60 mt-1">Available for on-site &amp; remote collaborations</p>
+              <p className="text-xs text-[#D7E2EA]/60 mt-1">Available for full-time studio &amp; creative projects</p>
             </div>
           </FadeIn>
 
@@ -118,7 +118,7 @@ export default function ContactSection() {
             <div className="p-8 sm:p-10 rounded-[35px] bg-white/[0.02] border border-white/10 shadow-2xl">
               <h3 className="text-xl font-bold uppercase text-white mb-2">Send a Message</h3>
               <p className="text-xs sm:text-sm text-[#D7E2EA]/60 font-light mb-6">
-                Fill in your project brief or inquiry details and I will get back to you promptly.
+                Fill in your project brief or creative inquiry and I will get back to you promptly.
               </p>
 
               {submitted ? (
@@ -168,7 +168,7 @@ export default function ContactSection() {
                     <textarea
                       required
                       rows={4}
-                      placeholder="Tell me about your project, timeline, and requirements..."
+                      placeholder="Tell me about your broadcast graphics package, poster requirements, or motion design timeline..."
                       value={formData.message}
                       onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                       className="w-full px-4 py-3.5 rounded-xl bg-white/[0.04] border border-white/10 text-white placeholder-white/20 text-sm focus:outline-none focus:border-[#B600A8] transition-colors resize-none"
@@ -184,7 +184,7 @@ export default function ContactSection() {
                     }}
                   >
                     <Send className="w-4 h-4" />
-                    <span>Send Inquiry</span>
+                    <span>Send Creative Inquiry</span>
                   </button>
                 </form>
               )}
@@ -194,9 +194,9 @@ export default function ContactSection() {
 
         {/* Footer info bar */}
         <div className="mt-20 pt-8 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-[#D7E2EA]/50 font-light">
-          <p>© {new Date().getFullYear()} Syed Maaz. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Syed Maaz — Graphics &amp; Motion Designer. All rights reserved.</p>
           <p className="flex items-center gap-1.5">
-            Crafted with React, TypeScript &amp; Framer Motion
+            Designed for television broadcast, motion media &amp; brand identities
           </p>
         </div>
       </div>

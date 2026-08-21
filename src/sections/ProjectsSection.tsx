@@ -19,10 +19,10 @@ interface ProjectData {
 const PROJECTS: ProjectData[] = [
   {
     num: '01',
-    category: 'Broadcast & Motion',
+    category: 'Live Broadcast & Event',
     name: 'Prakashnath Swamiji Birthday Event – Graphics Package',
     date: 'February 2026',
-    desc: 'Complete on-air graphics package for live broadcast coverage, featuring high-fidelity animated jackets, title cards, and lower thirds.',
+    desc: 'Complete on-air graphics package for live event coverage, featuring high-fidelity animated jackets, title cards, promotional posters, and lower thirds.',
     tags: ['After Effects', 'Photoshop', 'Premiere Pro', 'Motion Graphics', 'Live Broadcast'],
     points: [
       'Managed complete on-air graphics including lower thirds, animated jackets, title cards, and promotional posters for live event coverage.',
@@ -37,14 +37,14 @@ const PROJECTS: ProjectData[] = [
   },
   {
     num: '02',
-    category: 'Web App & EdTech',
-    name: 'Personalized Learning Hub',
-    date: 'November 2023',
-    desc: 'Adaptive web-based e-learning system reshaping traditional learning models with personalized skill assessments and progress tracking.',
-    tags: ['React JS', 'JavaScript', 'HTML5', 'CSS3', 'Python Backend'],
+    category: 'Television & On-Air Motion',
+    name: 'Speed News Kannada – On-Air Newsroom Graphics Suite',
+    date: '2025 – Present',
+    desc: 'Comprehensive visual packaging for daily television broadcast including anchor backdrops, debate panel plates, live tickers, and animated channel bumpers.',
+    tags: ['After Effects', 'Photoshop', 'Premiere Pro', 'Broadcast Plates', 'Video Loops'],
     points: [
-      'Designed and engineered an online education platform to help students learn and practice more effectively.',
-      'Analyzes abilities, learning pace, interests, and overall progress to deliver an individualized learning path.',
+      'Designed broadcast-ready graphic plates, anchor studio backdrops, and discussion panel key visuals for daily news segments.',
+      'Crafted seamless animated video loops and real-time lower-thirds optimized for high-speed live broadcasting workflows.',
     ],
     col1Img1:
       'https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055654_911201c5-36d9-4bc6-bac7-331adfce159f.png&w=1280&q=85',
@@ -55,14 +55,14 @@ const PROJECTS: ProjectData[] = [
   },
   {
     num: '03',
-    category: 'ML & Predictive Data',
-    name: 'Covid-19 Data-Analysis & Prediction Model',
-    date: 'April 2024',
-    desc: 'Real-time forecasting system built with Neural Networks and Polynomial Regression to assist healthcare planning.',
-    tags: ['Python', 'Neural Networks', 'Regression', 'SQL', 'Data Analytics'],
+    category: 'Brand Identity & Posters',
+    name: 'Visual Brand Identity & Motion Promo Campaign',
+    date: '2024',
+    desc: 'Full-spectrum visual identity system featuring custom typography, promotional poster series, social media assets, and kinetic title sequences.',
+    tags: ['Adobe Photoshop', 'After Effects', 'Premiere Pro', 'Poster Design', 'Visual Branding'],
     points: [
-      'Built a predictive forecasting model combining Neural Networks and Polynomial Regression.',
-      'Enabled healthcare and administrative bodies to strategize resource allocation using real-time epidemiological datasets.',
+      'Created high-impact promotional posters with advanced photo manipulation and custom typography hierarchies.',
+      'Delivered coordinated motion title stings and visual packages across digital media and event presentations.',
     ],
     col1Img1:
       'https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055759_963cfb0b-4bd1-4b0f-9d0a-09bd6cf95b2f.png&w=1280&q=85',
@@ -164,7 +164,7 @@ function ProjectCard({
 
             <div className="md:col-span-4 flex flex-wrap content-start gap-2">
               <span className="w-full text-xs font-semibold uppercase tracking-wider text-[#BBCCD7] flex items-center gap-1 mb-1">
-                <Layers className="w-3.5 h-3.5 text-[#7621B0]" /> Tech Stack
+                <Layers className="w-3.5 h-3.5 text-[#7621B0]" /> Creative Suite
               </span>
               {project.tags.map((t) => (
                 <span
@@ -231,13 +231,13 @@ export default function ProjectsSection() {
     >
       <FadeIn delay={0} y={40} className="text-center mb-16 sm:mb-24">
         <span className="text-xs uppercase tracking-widest font-semibold text-[#B600A8] px-4 py-1.5 rounded-full bg-white/5 border border-white/10 inline-block mb-4">
-          Selected Portfolio
+          Selected Works
         </span>
         <h2
           className="hero-heading font-black uppercase text-center leading-none tracking-tight"
           style={{ fontSize: 'clamp(3rem, 10vw, 130px)' }}
         >
-          Featured Projects
+          Design Projects
         </h2>
       </FadeIn>
 

@@ -57,7 +57,7 @@ export default function HeroSection() {
         <FadeIn delay={0.1} y={20}>
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 text-xs font-light tracking-widest uppercase text-[#BBCCD7] mb-4">
             <Sparkles className="w-3.5 h-3.5 text-[#B600A8]" />
-            Graphics Designer &amp; Web Developer
+            Graphics &amp; Motion Designer
           </div>
         </FadeIn>
 
@@ -95,7 +95,7 @@ export default function HeroSection() {
               max-w-[200px] sm:max-w-[260px] md:max-w-[320px]"
             style={{ fontSize: 'clamp(0.75rem, 1.3vw, 1.25rem)' }}
           >
-            Crafting broadcast-ready visuals, motion designs &amp; scalable web experiences
+            Specializing in broadcast-ready motion packages, animated lower-thirds &amp; visual identities
           </p>
         </FadeIn>
 
@@ -122,7 +122,7 @@ export default function HeroSection() {
         >
           <img
             src={PORTRAIT_URL}
-            alt="Syed Maaz — Graphics Designer & Web Developer"
+            alt="Syed Maaz — Graphics & Motion Designer"
             className="w-full h-auto object-contain pointer-events-none select-none drop-shadow-[0_20px_50px_rgba(182,0,168,0.2)]"
             draggable={false}
           />
